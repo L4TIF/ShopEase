@@ -6,7 +6,7 @@ import Layout from "./Layout/Layout";
 
 
 const routes = createRoutesFromElements(
-    <Route path="/" element={<Layout />} errorElement={<ErrorPage />}>
+    <Route path="/Shopping-Cart/" element={<Layout />} errorElement={<ErrorPage />}>
         <Route index element={<Home />} />
         <Route path='Shop' element={<Shop />} />
         <Route path="Checkout" element={<Checkout />} />
