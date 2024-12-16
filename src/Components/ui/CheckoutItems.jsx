@@ -6,7 +6,7 @@ const CheckoutItems = ({ checkoutList, totalPrice }) => {
 
 
     return (
-        <div className=" lg:flex justify-between h-screen ">
+        <div className=" lg:flex justify-between min-h-screen ">
             <div>
                 <div className="text-2xl font-bold">Your Cart</div>
                 {
