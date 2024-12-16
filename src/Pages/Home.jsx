@@ -12,7 +12,7 @@ const Home = () => {
                 <Link to='Shop' className=" py-4 px-8 rounded-xl text-lg text-white bg-black">Shop now</Link>
             </div>
             <div>
-                <div className="lg:mr-20 mt-10 flex justify-center items-center" ><img className=" w-28 md:w-80 object-contain" src="../public/shopping-cart.png" /></div>
+                <div className="lg:mr-20 mt-10 flex justify-center items-center" ><img className=" w-28 md:w-80 object-contain" src="shopping-cart.png" /></div>
             </div>
         </div>
 
