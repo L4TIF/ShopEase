@@ -10,7 +10,7 @@ const Invoice = ({ total }) => {
     const ShippingCharge = 20;
     return (
         <>
-            <div className="text-gray-700 p-10 text-xl flex flex-col items-end justify-center bg-slate-200 rounded-lg  w-full">
+            <div className="text-gray-700 mx-auto p-10 text-xl flex flex-col items-center w-3/4  lg:items-end justify-center bg-slate-200 rounded-lg  lg:w-full">
                 <p>Total order amount : {total.toFixed(2)}</p>
                 <p>Shipping Charges : {total > 0 && ShippingCharge}</p>
                 <p className="text-2xl text-black font-bold mt-4">Net Amount : {total > 0 ? (total + ShippingCharge).toFixed(2) : 0}</p>
