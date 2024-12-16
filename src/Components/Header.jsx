@@ -9,7 +9,7 @@ const Header = () => {
 
     return (
         <header className='flex justify-between items-center mb-5 pb-3  '>
-            <h1 className='text-3xl font-bold'><Link to='/ShopEase'>ShopEase</Link></h1>
+            <h1 className='text-3xl font-bold ml-4 md:ml-0'><Link to='/ShopEase'>ShopEase</Link></h1>
             <div className=" text-xl  flex gap-5">
                 <NavLink to='/ShopEase' className={({ isActive }) => isActive ? `text-red-500` : `text-gray-400`} end >Home</NavLink>
                 <NavLink to='Shop' className={({ isActive }) => isActive ? `text-red-500` : `text-gray-400`}>Shop</NavLink>
